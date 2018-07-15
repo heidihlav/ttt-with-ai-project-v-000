@@ -96,6 +96,7 @@ class Game
           play
         when "exit"
           over?
+          binding.pry
       end
     end
   end
